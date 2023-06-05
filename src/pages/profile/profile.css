@@ -1,0 +1,65 @@
+.profile
+{
+    display: flex;
+}
+.profileright
+{
+    flex:9;
+}
+.profilerbottom
+{
+    display: flex;
+}
+.profilecover
+{
+    height: 320px;
+    position: relative;
+}
+.profilecoverimg
+{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.profileuserimg
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px #fff;
+    
+    top: -0px;
+    left: -70px;
+
+}
+.profileinfo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    align-items: center;
+    background-image:-webkit-radial-gradient(
+        circle,
+        #942ad6,
+        #fff 90%,
+      transparent 50%
+      
+    );
+}
+.profilename
+{
+font-size: 24px;
+}
+.profiledesc
+{
+    font-weight: 600;
+}
+.profilerightbottom
+{
+    display: flex;
+
+}

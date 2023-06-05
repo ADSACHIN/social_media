@@ -1,0 +1,109 @@
+.rightbar
+{
+    flex: 4;
+    background-image: linear-gradient(to top, rgba(208, 49, 219, 0.568), rgba(185, 52, 116, 0.346),rgba(211, 30, 166, 0.564));
+}
+
+.rightbarwrapper
+{
+    padding: 20px 20px 0 0;
+}
+.birthcon
+{
+    display: flex;
+    align-items: center;
+}
+.birthimg
+{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, rgba(80, 145, 177, 0.896), rgb(158, 52, 185));
+
+}
+.birthtext
+{
+  
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.rightbarad
+{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.rightfrndlist
+{
+    
+padding: 0%;
+margin: 0%;
+list-style: none;
+}
+
+.com
+{
+    
+    position: relative;
+}
+
+
+.rightbartitle
+{
+    margin: 7px;
+    font-size: 18px;
+    font-weight: 500;
+   
+
+}
+.rightbarfollimg
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 7px;
+    object-fit: cover;
+}
+.rightbarinfo
+{
+    margin-bottom: 30px;
+}
+.rightbarinfoitem
+{
+    margin-bottom: 10px;
+}
+.rightbarinfokey
+{
+    font-size: 20px;
+    font-weight: 800;
+    color: #4a4a4a;
+    
+}
+.rightbarinfovalue
+{
+    font-weight: 500;
+
+}
+.rightbarfoll
+
+{
+    display: flex;
+    flex-direction: column; 
+}
+.rightbarfolls
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.rightbarfollname
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-left: 20px;
+}

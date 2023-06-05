@@ -1,0 +1,26 @@
+.sidefrndimg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-image: linear-gradient(to top, rgba(49, 219, 55, 0.568), rgba(185, 40, 110, 0.346));
+
+
+}
+
+.sidefrnd
+{
+   /* display: flex; */
+    font-size: 20px;
+    /* align-items: center; */
+    /* background-color: rgb(72, 231, 231); */
+    font-weight: bold;
+    color: white;
+    margin-left: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to top, rgba(49, 160, 219, 0.568), rgba(185, 40, 110, 0.346));
+
+
+}

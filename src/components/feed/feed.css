@@ -1,0 +1,5 @@
+.feed
+{
+    flex: 5;
+    background-image: linear-gradient(to top, rgba(169, 80, 177, 0.896), rgba(153, 56, 128, 0.354));
+}

@@ -1,0 +1,120 @@
+
+.topbar-c
+{
+        background-image: linear-gradient(to left, rgba(69, 107, 185, 0), rgb(119, 52, 185));
+        height: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top:0;
+  z-index: 999; 
+}
+.topbarleft
+{
+    flex: 3;
+    background-image:linear-gradient(to left, rgb(18, 151, 234))
+   
+}
+.logo
+{
+    font-size: 24px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(127, 249, 255);
+    cursor: pointer;
+}
+.topbarcentre 
+{
+    flex: 5;
+    background-color: blueviolet;
+}
+.searchbar
+{
+    
+    height: 30px;
+    border-radius: 50px;
+    background-color: azure;
+    align-items:center;
+}
+.icon
+{
+    font-size: 20px !important;
+    margin-left: 20px;
+
+}
+.searchinput
+{
+    border: none;
+    width: 70%;
+}
+.searchinput:focus
+{
+    outline: none;
+}
+
+.topbarright
+{
+    flex: 5;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.comb
+{
+    background-color: rgb(84, 84, 171);
+    flex: 8;
+    height: 34px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.topbarlink
+{
+    margin-right: 14px;
+    cursor: pointer;
+    color: white;
+}
+.topbaricons
+{
+    display: flex;
+}
+.topbariconitem
+{
+    
+    margin-right: 60px;
+    cursor: pointer;
+    position: relative;
+    
+}
+.topbariconbadge
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: -5px;
+
+    right: -5px;
+    text-align: center;
+    line-height: 15px;
+
+}
+.topbarimg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+    object-fit: cover;
+}

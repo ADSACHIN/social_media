@@ -1,0 +1,116 @@
+.post
+{
+    width:100% ;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(176, 162, 162);   margin: 10px 0;
+}
+.postwrapper
+{
+    padding: 10px;
+    /* background-color: rgb(171, 208, 239); */
+    border-radius: 20px;
+}
+.posttop
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.posttopleft
+{
+    display: flex;
+    align-items: center;
+}
+.postimg
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-image: linear-gradient(to top, rgba(49, 219, 55, 0.568), rgba(185, 40, 110, 0.346));
+
+
+}
+.postusername
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.postdate
+{
+    font: size 15px ;
+    color: gray;
+    margin-left: 10px;
+
+}
+.postcentre
+{
+    margin: 20px 0;
+}
+.postimge
+{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 50px;
+    background-image: linear-gradient(to top, rgba(49, 219, 55, 0.568), rgba(185, 40, 110, 0.346));
+
+}
+.postbottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: blanchedalmond;
+    
+}
+.postbtleft
+{
+    display: flex;
+    align-items: center;
+}
+.likeicon
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    /* background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+   
+}
+.postcount
+{
+    font-size: 15px;
+}
+.postctext
+{
+    cursor: pointer;
+    border-radius: 1px dashed gray;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    /* background-color: #f1f1f1;
+    color: #4a4a4a; */
+
+
+}
+.posttext{
+    cursor: pointer;
+    border-radius: 1px dashed gray;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    /* background-color: #f1f1f1; */
+    /* color: #4a4a4a; */
+    
+
+}
